@@ -7,8 +7,14 @@
 //
 
 #import "AppDelegate.h"
+#import "CCPUserInfo.h"
+
+//pgyu6atqpfv4u
+//YAuJ7VHDM1X
 
 @interface AppDelegate ()
+
+@property (nonatomic, strong) CCPUserInfo *userInfo;
 
 @end
 
@@ -16,7 +22,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [[RCIM sharedRCIM] initWithAppKey:@"pgyu6atqpfv4u"];
+    _userInfo = [CCPUserInfo new];
+    [[RCIM sharedRCIM] setUserInfoDataSource:_userInfo];
     return YES;
 }
 

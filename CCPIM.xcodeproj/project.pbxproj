@@ -13,6 +13,10 @@
 		7ECF149E1E650F5600DD17C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ECF149C1E650F5600DD17C3 /* Main.storyboard */; };
 		7ECF14A01E650F5600DD17C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ECF149F1E650F5600DD17C3 /* Assets.xcassets */; };
 		7ECF14A31E650F5600DD17C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ECF14A11E650F5600DD17C3 /* LaunchScreen.storyboard */; };
+		7ECF14AD1E65503000DD17C3 /* TalkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECF14AC1E65503000DD17C3 /* TalkViewController.m */; };
+		7EEC35171E655B6900C9AFAA /* PersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEC35161E655B6900C9AFAA /* PersonViewController.m */; };
+		7EEC351A1E65642D00C9AFAA /* CCPUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEC35191E65642D00C9AFAA /* CCPUserInfo.m */; };
+		AC457B6878C2F947A0BE5A3B /* Pods_CCPIM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B87279BD1B7D3990445BDD19 /* Pods_CCPIM.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,16 @@
 		7ECF149F1E650F5600DD17C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7ECF14A21E650F5600DD17C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7ECF14A41E650F5700DD17C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ECF14AA1E65291500DD17C3 /* CCPIM.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCPIM.pch; sourceTree = "<group>"; };
+		7ECF14AB1E65503000DD17C3 /* TalkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkViewController.h; sourceTree = "<group>"; };
+		7ECF14AC1E65503000DD17C3 /* TalkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkViewController.m; sourceTree = "<group>"; };
+		7EEC35151E655B6900C9AFAA /* PersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonViewController.h; sourceTree = "<group>"; };
+		7EEC35161E655B6900C9AFAA /* PersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonViewController.m; sourceTree = "<group>"; };
+		7EEC35181E65642D00C9AFAA /* CCPUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPUserInfo.h; sourceTree = "<group>"; };
+		7EEC35191E65642D00C9AFAA /* CCPUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPUserInfo.m; sourceTree = "<group>"; };
+		8BD6E4464B91CEF1406E5222 /* Pods-CCPIM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCPIM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CCPIM/Pods-CCPIM.debug.xcconfig"; sourceTree = "<group>"; };
+		AE453D9E184731957129D823 /* Pods-CCPIM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCPIM.release.xcconfig"; path = "Pods/Target Support Files/Pods-CCPIM/Pods-CCPIM.release.xcconfig"; sourceTree = "<group>"; };
+		B87279BD1B7D3990445BDD19 /* Pods_CCPIM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCPIM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC457B6878C2F947A0BE5A3B /* Pods_CCPIM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +59,8 @@
 			children = (
 				7ECF14921E650F5600DD17C3 /* CCPIM */,
 				7ECF14911E650F5600DD17C3 /* Products */,
+				83CB90A6560CA93F0CBA4FF5 /* Pods */,
+				A467098F88FDEEA374F4EBF4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +79,12 @@
 				7ECF14971E650F5600DD17C3 /* AppDelegate.m */,
 				7ECF14991E650F5600DD17C3 /* ViewController.h */,
 				7ECF149A1E650F5600DD17C3 /* ViewController.m */,
+				7ECF14AB1E65503000DD17C3 /* TalkViewController.h */,
+				7ECF14AC1E65503000DD17C3 /* TalkViewController.m */,
+				7EEC35151E655B6900C9AFAA /* PersonViewController.h */,
+				7EEC35161E655B6900C9AFAA /* PersonViewController.m */,
+				7EEC35181E65642D00C9AFAA /* CCPUserInfo.h */,
+				7EEC35191E65642D00C9AFAA /* CCPUserInfo.m */,
 				7ECF149C1E650F5600DD17C3 /* Main.storyboard */,
 				7ECF149F1E650F5600DD17C3 /* Assets.xcassets */,
 				7ECF14A11E650F5600DD17C3 /* LaunchScreen.storyboard */,
@@ -75,8 +98,26 @@
 			isa = PBXGroup;
 			children = (
 				7ECF14941E650F5600DD17C3 /* main.m */,
+				7ECF14AA1E65291500DD17C3 /* CCPIM.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83CB90A6560CA93F0CBA4FF5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8BD6E4464B91CEF1406E5222 /* Pods-CCPIM.debug.xcconfig */,
+				AE453D9E184731957129D823 /* Pods-CCPIM.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A467098F88FDEEA374F4EBF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B87279BD1B7D3990445BDD19 /* Pods_CCPIM.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +127,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7ECF14A71E650F5700DD17C3 /* Build configuration list for PBXNativeTarget "CCPIM" */;
 			buildPhases = (
+				C93DE32E2263FF7BD43CEF7D /* [CP] Check Pods Manifest.lock */,
 				7ECF148C1E650F5600DD17C3 /* Sources */,
 				7ECF148D1E650F5600DD17C3 /* Frameworks */,
 				7ECF148E1E650F5600DD17C3 /* Resources */,
+				FC0422D2F0317004465FF22F /* [CP] Embed Pods Frameworks */,
+				FE39E0C1A5C6AB721EFCA3F6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,14 +190,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C93DE32E2263FF7BD43CEF7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FC0422D2F0317004465FF22F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CCPIM/Pods-CCPIM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE39E0C1A5C6AB721EFCA3F6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CCPIM/Pods-CCPIM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7ECF148C1E650F5600DD17C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EEC35171E655B6900C9AFAA /* PersonViewController.m in Sources */,
 				7ECF149B1E650F5600DD17C3 /* ViewController.m in Sources */,
 				7ECF14981E650F5600DD17C3 /* AppDelegate.m in Sources */,
+				7ECF14AD1E65503000DD17C3 /* TalkViewController.m in Sources */,
 				7ECF14951E650F5600DD17C3 /* main.m in Sources */,
+				7EEC351A1E65642D00C9AFAA /* CCPUserInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,10 +364,13 @@
 		};
 		7ECF14A81E650F5700DD17C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BD6E4464B91CEF1406E5222 /* Pods-CCPIM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = H2969SVRUG;
+				GCC_PREFIX_HEADER = CCPIM/CCPIM.pch;
 				INFOPLIST_FILE = CCPIM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ruiyi.CCPIM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -281,10 +379,13 @@
 		};
 		7ECF14A91E650F5700DD17C3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE453D9E184731957129D823 /* Pods-CCPIM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = H2969SVRUG;
+				GCC_PREFIX_HEADER = CCPIM/CCPIM.pch;
 				INFOPLIST_FILE = CCPIM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ruiyi.CCPIM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -310,6 +411,7 @@
 				7ECF14A91E650F5700DD17C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

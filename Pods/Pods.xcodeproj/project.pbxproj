@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55A1E010BD2F7ED7843C8FDDA7F10030 /* Pods-CCPIM-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE187E512D7D988EA8E4A0AA68640F8D /* Pods-CCPIM-dummy.m */; };
+		DD13192AD22F0A1E57F369B97A42E08D /* Pods-CCPIM-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7569C38EF79B1E4F61E91A181E5D1C59 /* Pods-CCPIM-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5D59F8BF6EE6B56BB0EF7F65A2F1FAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		005ECD7E23423A03174D8C4748CF1F96 /* Pods-CCPIM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCPIM.debug.xcconfig"; sourceTree = "<group>"; };
+		04DE5279E80CC6B4B9DA47B6D06C9C2D /* RongCloud.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = RongCloud.bundle; path = RongCloudIM/RongCloud.bundle; sourceTree = "<group>"; };
+		0C200BBA4315024EAE10664FED0AC4CD /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-Hans.lproj"; path = "RongCloudIM/zh-Hans.lproj"; sourceTree = "<group>"; };
+		1A6ABC069D87EF53BDDA2AB9422E4E36 /* RCConfig.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = RCConfig.plist; path = RongCloudIM/RCConfig.plist; sourceTree = "<group>"; };
+		34BB2FF01812417AA4B73838CB48F8BF /* Pods-CCPIM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCPIM.release.xcconfig"; sourceTree = "<group>"; };
+		5499F6F0B10D4350EF466D528AA3BE46 /* Pods-CCPIM.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CCPIM.modulemap"; sourceTree = "<group>"; };
+		7569C38EF79B1E4F61E91A181E5D1C59 /* Pods-CCPIM-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CCPIM-umbrella.h"; sourceTree = "<group>"; };
+		78923C300CEF15B50627551AEB57D541 /* Emoji.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Emoji.plist; path = RongCloudIM/Emoji.plist; sourceTree = "<group>"; };
+		7BD785FA2B087E1CF96A7ACA9C448633 /* RongIMLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RongIMLib.framework; path = RongCloudIM/RongIMLib.framework; sourceTree = "<group>"; };
+		7F0E638B7D75F71251567344C2E030FE /* Pods-CCPIM-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CCPIM-frameworks.sh"; sourceTree = "<group>"; };
+		84745CBFA0B6C5E4AA5613714EA2390E /* RongIMKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RongIMKit.framework; path = RongCloudIM/RongIMKit.framework; sourceTree = "<group>"; };
+		84F18369B3FD5B7031F5274DC02B622C /* Pods-CCPIM-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CCPIM-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		997D32068D48BF760D92C70D437E50A7 /* Pods-CCPIM-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCPIM-acknowledgements.plist"; sourceTree = "<group>"; };
+		AE187E512D7D988EA8E4A0AA68640F8D /* Pods-CCPIM-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CCPIM-dummy.m"; sourceTree = "<group>"; };
+		B447EE3C6E54A43C2B7ED35B763293FB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B764C8AF5172B06920C32418A5339DF9 /* libopencore-amrnb.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libopencore-amrnb.a"; path = "RongCloudIM/libopencore-amrnb.a"; sourceTree = "<group>"; };
+		C1A03387C932CFB5333094D14E80481F /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = RongCloudIM/en.lproj; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E6931A15222A8A6CC1CFAF399D8E8C38 /* Pods_CCPIM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CCPIM.framework; path = "Pods-CCPIM.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F11839DC63BD8D85C8512FF5E7248693 /* Pods-CCPIM-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CCPIM-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44A3EEEBDD261E822F1D4FFFFE1D3DC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D59F8BF6EE6B56BB0EF7F65A2F1FAF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		257B3FDED07C9AA666F1125EEF779AD3 /* IMLib */ = {
+			isa = PBXGroup;
+			children = (
+				BCDA7C910775D8B4D7A6062CB61CCC7E /* Frameworks */,
+				E12C0995F9FA2CD9641C94B9F51CCD8E /* Resources */,
+			);
+			name = IMLib;
+			sourceTree = "<group>";
+		};
+		26E4DA5E470FBDFD9A6DB6742A112F37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6931A15222A8A6CC1CFAF399D8E8C38 /* Pods_CCPIM.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		354D111C6A1B112CF8A3D8CA011D7B4C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				535C5B8234E1D99C6C89DE604C480612 /* RongCloudIM */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		535C5B8234E1D99C6C89DE604C480612 /* RongCloudIM */ = {
+			isa = PBXGroup;
+			children = (
+				CCCCF295EB21315F1FCD89B7B0273ABF /* IMKit */,
+				257B3FDED07C9AA666F1125EEF779AD3 /* IMLib */,
+			);
+			name = RongCloudIM;
+			path = RongCloudIM;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				354D111C6A1B112CF8A3D8CA011D7B4C /* Pods */,
+				26E4DA5E470FBDFD9A6DB6742A112F37 /* Products */,
+				AD4F0CB8EA580B8D3D89A4DB24CE39D6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AD4F0CB8EA580B8D3D89A4DB24CE39D6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1FBD5963AAF3E96D85D90B778AC082A /* Pods-CCPIM */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCDA7C910775D8B4D7A6062CB61CCC7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B764C8AF5172B06920C32418A5339DF9 /* libopencore-amrnb.a */,
+				7BD785FA2B087E1CF96A7ACA9C448633 /* RongIMLib.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCCCF295EB21315F1FCD89B7B0273ABF /* IMKit */ = {
+			isa = PBXGroup;
+			children = (
+				EF03E870E89876D9845AF65F4E2999E0 /* Frameworks */,
+				D642726CAECB611288E16BA34F62539E /* Resources */,
+			);
+			name = IMKit;
+			sourceTree = "<group>";
+		};
+		D1FBD5963AAF3E96D85D90B778AC082A /* Pods-CCPIM */ = {
+			isa = PBXGroup;
+			children = (
+				B447EE3C6E54A43C2B7ED35B763293FB /* Info.plist */,
+				5499F6F0B10D4350EF466D528AA3BE46 /* Pods-CCPIM.modulemap */,
+				F11839DC63BD8D85C8512FF5E7248693 /* Pods-CCPIM-acknowledgements.markdown */,
+				997D32068D48BF760D92C70D437E50A7 /* Pods-CCPIM-acknowledgements.plist */,
+				AE187E512D7D988EA8E4A0AA68640F8D /* Pods-CCPIM-dummy.m */,
+				7F0E638B7D75F71251567344C2E030FE /* Pods-CCPIM-frameworks.sh */,
+				84F18369B3FD5B7031F5274DC02B622C /* Pods-CCPIM-resources.sh */,
+				7569C38EF79B1E4F61E91A181E5D1C59 /* Pods-CCPIM-umbrella.h */,
+				005ECD7E23423A03174D8C4748CF1F96 /* Pods-CCPIM.debug.xcconfig */,
+				34BB2FF01812417AA4B73838CB48F8BF /* Pods-CCPIM.release.xcconfig */,
+			);
+			name = "Pods-CCPIM";
+			path = "Target Support Files/Pods-CCPIM";
+			sourceTree = "<group>";
+		};
+		D642726CAECB611288E16BA34F62539E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				78923C300CEF15B50627551AEB57D541 /* Emoji.plist */,
+				C1A03387C932CFB5333094D14E80481F /* en.lproj */,
+				04DE5279E80CC6B4B9DA47B6D06C9C2D /* RongCloud.bundle */,
+				0C200BBA4315024EAE10664FED0AC4CD /* zh-Hans.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E12C0995F9FA2CD9641C94B9F51CCD8E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1A6ABC069D87EF53BDDA2AB9422E4E36 /* RCConfig.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EF03E870E89876D9845AF65F4E2999E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84745CBFA0B6C5E4AA5613714EA2390E /* RongIMKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		95A05D5FD899E0638AD49A28E31179BE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD13192AD22F0A1E57F369B97A42E08D /* Pods-CCPIM-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8094032F6D36608CC69DE5D916632DC0 /* Pods-CCPIM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D1ED5F5BACF7FA4FEA4F6389E5B2D6E /* Build configuration list for PBXNativeTarget "Pods-CCPIM" */;
+			buildPhases = (
+				19540C2E303E62A1FC211E9E40C9F822 /* Sources */,
+				44A3EEEBDD261E822F1D4FFFFE1D3DC9 /* Frameworks */,
+				95A05D5FD899E0638AD49A28E31179BE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CCPIM";
+			productName = "Pods-CCPIM";
+			productReference = E6931A15222A8A6CC1CFAF399D8E8C38 /* Pods_CCPIM.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 26E4DA5E470FBDFD9A6DB6742A112F37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8094032F6D36608CC69DE5D916632DC0 /* Pods-CCPIM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19540C2E303E62A1FC211E9E40C9F822 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55A1E010BD2F7ED7843C8FDDA7F10030 /* Pods-CCPIM-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		609A81FCB183AC0EA69E13B4B311BA66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 005ECD7E23423A03174D8C4748CF1F96 /* Pods-CCPIM.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CCPIM/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CCPIM/Pods-CCPIM.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CCPIM;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BDF1EFFC5FB32563D18404EAECEB5053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34BB2FF01812417AA4B73838CB48F8BF /* Pods-CCPIM.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CCPIM/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CCPIM/Pods-CCPIM.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CCPIM;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D1ED5F5BACF7FA4FEA4F6389E5B2D6E /* Build configuration list for PBXNativeTarget "Pods-CCPIM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				609A81FCB183AC0EA69E13B4B311BA66 /* Debug */,
+				BDF1EFFC5FB32563D18404EAECEB5053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,13 @@
+//
+//  CCPIM.pch
+//  CCPIM
+//
+//  Created by 储诚鹏 on 17/2/28.
+//  Copyright © 2017年 chuchengpeng. All rights reserved.
+//
+
+#ifndef CCPIM_pch
+#define CCPIM_pch
+#import <RongIMKit/RongIMKit.h>
+
+#endif /* CCPIM_pch */
